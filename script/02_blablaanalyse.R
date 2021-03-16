@@ -1,7 +1,6 @@
 #blabla analyse
 
 
-x <- rnorm(100, 2, 0.5)
+y <- rnorm(10000, 45, 10.5)
 
-png(filename = "res/01_blabla/")
-hist(x)
+hist(y)
